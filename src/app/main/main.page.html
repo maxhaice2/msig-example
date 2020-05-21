@@ -1,0 +1,14 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Мега Принт</ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div *ngIf="!isLoggedIn()">
+    Основная страница для незарегистрированного
+  </div>
+  <div *ngIf="isLoggedIn()">
+    Основная страница для зарегистрированного
+  </div>
+</ion-content>
