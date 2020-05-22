@@ -1,7 +1,0 @@
-{
-  "name": "trueprint",
-  "integrations": {
-    "capacitor": {}
-  },
-  "type": "angular"
-}
