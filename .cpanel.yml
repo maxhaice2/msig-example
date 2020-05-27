@@ -1,0 +1,7 @@
+---
+deployment:
+  tasks:
+    - export REPOPATH=/var/www/u1050588/repositories/maxhaice2hub.io/*
+    - export SITEPATH=/var/www/u1050588/public_html/
+    - /bin/cp -R * $REPOPATH
+    - /bin/rsync -rav --exclude '.git' --exclude '.cpanel.yml' --del $REPOPATH $SITEPATH
