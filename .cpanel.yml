@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export SITEPATH=/var/www/u1050588/public_html/
+    - export SITEPATH=/var/www/u1050588/public_html/xn--24-6kcljuymqky.xn--p1ai
     - /bin/cp -R * $SITEPATH
