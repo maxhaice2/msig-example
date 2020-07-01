@@ -1,5 +1,5 @@
 ---
 deployment:
   tasks:
-    - export SITEPATH=/var/www/u1050588/public_html/megaprint/
+    - export SITEPATH=/var/www/u1050588/public_html/
     - /bin/cp -R * $SITEPATH
