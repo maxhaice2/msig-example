@@ -521,6 +521,9 @@ limitations under the License.
 ng2-pdf-viewer
 MIT
 
+ng2-pdfjs-viewer
+MIT
+
 ngx-paypal
 MIT
 
