@@ -1,0 +1,46 @@
+[
+    {
+        "name": "transfer",
+        "base": "",
+        "fields": [
+            {
+                "name": "from",
+                "type": "name"
+            },
+            {
+                "name": "to",
+                "type": "name"
+            },
+            {
+                "name": "quantity",
+                "type": "asset"
+            },
+            {
+                "name": "memo",
+                "type": "string"
+            }
+        ]
+    },
+    {
+        "name": "updateauth",
+        "base": "",
+        "fields": [
+            {
+                "name": "account",
+                "type": "name"
+            },
+            {
+                "name": "permission",
+                "type": "name"
+            },
+            {
+                "name": "parent",
+                "type": "name"
+            },
+            {
+                "name": "auth",
+                "type": "authority"
+            }
+        ]
+    }
+]
