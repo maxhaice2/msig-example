@@ -1503,9 +1503,9 @@
                       name: tran.name,
                       chain: _this5.contract.getApiIndex(),
                       action: {
-                        name: tran.name,
-                        fields: tran.fields,
-                        _fields: tran._fields
+                        name: tran.action.name,
+                        fields: tran.action.fields,
+                        _fields: tran.action._fields
                       },
                       auths: [{
                         _name: '',

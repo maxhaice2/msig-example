@@ -757,9 +757,9 @@ class DynamicFormComponent {
                             name: tran.name,
                             chain: this.contract.getApiIndex(),
                             action: {
-                                name: tran.name,
-                                fields: tran.fields,
-                                _fields: tran._fields
+                                name: tran.action.name,
+                                fields: tran.action.fields,
+                                _fields: tran.action._fields
                             },
                             auths: [
                                 {
