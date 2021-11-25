@@ -1,46 +1,70 @@
 [
     {
-        "name": "transfer",
-        "base": "",
-        "fields": [
-            {
-                "name": "from",
-                "type": "name"
-            },
-            {
-                "name": "to",
-                "type": "name"
-            },
-            {
-                "name": "quantity",
-                "type": "asset"
-            },
-            {
-                "name": "memo",
-                "type": "string"
-            }
-        ]
+        "name": "eosio.token",
+        "action": {
+            "name": "transfer",
+            "fields": [
+                {
+                    "name": "from",
+                    "type": "name",
+                    "value": ""
+                },
+                {
+                    "name": "to",
+                    "type": "name",
+                    "value": ""
+                },
+                {
+                    "name": "quantity",
+                    "type": "asset",
+                    "value": ""
+                },
+                {
+                    "name": "memo",
+                    "type": "string",
+                    "value": ""
+                }
+            ],
+            "_fields": [
+                "from",
+                "to",
+                "quantity",
+                "memo"
+            ]
+        }
     },
     {
-        "name": "updateauth",
-        "base": "",
-        "fields": [
-            {
-                "name": "account",
-                "type": "name"
-            },
-            {
-                "name": "permission",
-                "type": "name"
-            },
-            {
-                "name": "parent",
-                "type": "name"
-            },
-            {
-                "name": "auth",
-                "type": "authority"
-            }
-        ]
+        "name": "eosio.token",
+        "action": {
+            "name": "updateauth",
+            "fields": [
+                {
+                    "name": "account",
+                    "type": "name",
+                    "value": ""
+                },
+                {
+                    "name": "permission",
+                    "type": "name",
+                    "value": ""
+                },
+                {
+                    "name": "parent",
+                    "type": "name",
+                    "value": ""
+                },
+                {
+                    "name": "auth",
+                    "type": "authority",
+                    "value": ""
+                }
+            ],
+            "_fields": [
+                "account",
+                "permission",
+                "parent",
+                "auth"
+            ]
+        }
     }
 ]
