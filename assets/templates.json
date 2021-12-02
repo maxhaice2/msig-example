@@ -59,6 +59,21 @@
                     "value": ""
                 }
             ],
+            "updateauth": {
+                "permiss": [
+                    {
+                        "actor": "",
+                        "permission": "",
+                        "weight": 1
+                    }
+                ],
+                "keys": [
+                    {
+                        "key": "",
+                        "weight": 1
+                    }
+                ]
+            },
             "_fields": [
                 "account",
                 "permission",
